@@ -1,0 +1,82 @@
+body {
+ margin:0 auto;
+ background-image: url("Imagenes/japaneseHelmet.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: 75%;
+ font-family: sans-serif;
+}
+
+#welcome{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f22473;
+  color: #fff;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-bottom: 20PX;
+  font-size: 20px;
+}
+
+#cuestionario {
+  margin: auto;
+  margin-left: 10px;
+  background: rgba(255,255,255, 0.9);
+  padding: 20px 30px;
+  width: 50%;
+  border-radius: 20px;
+  float: left;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#boton {
+  background: #f22473;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#boton:hover {
+  background: white;
+  border: 2px solid #f22473;
+  font-weight: bold;
+  color: #f22473;
+  cursor: pointer;
+}
+
+.preguntas {
+  font-weight: bold;
+}
+
+#contiendaFinalizada {
+  visibility: hidden;
+  background: rgba(238,018,137,0.9);
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#imagenesResultados {
+  width: 100%;
+}
+
+
+
+#usuarioAnonimo {
+  font-weight: bold;
+  font-size: 28px;
+}

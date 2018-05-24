@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Bienvenida a la trivia Samurai </title>
+    <!-- cargamos el css-->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div id="welcome"> <!-- INICIA DIV TEXTO DE BIENVENIDA -->
+      <p id="usuarioAnonimo"></p></div>
+    <div>
+      <form id = "cuestionario" name = "cuestionario">
+        <p><strong>Por favor contesta las siguientes preguntas:</strong></p>
+        <p class = "preguntas" >¿Cuál es la mejor opción para incluir CSS en HTML?</p>
+           <input type="radio" id="respuestas" name = "pregunta1" value="Colocar los estilos dentro de &lthead&gt.">Colocar los estilos dentro de &lthead&gt.<br>
+           <input type="radio" id="respuestas" name = "pregunta1" value="Crear un archivo CSS separado y enlazarlo mediante una etiqueta HTML.">Crear un archivo CSS separado y enlazarlo mediante una etiqueta HTML.<br>
+           <input type="radio" id="respuestas" name = "pregunta1" value="Insertar el estilo en la linea de un elemento especifico.">Insertar el estilo en la linea de un elemento especifico.<br>
+
+        <p class = "preguntas">¿Qué valor devuelve innerHTML?</p>
+           <input type="radio" id="respuestas" name = "pregunta2" value="Regresa el valor que contiene el div.">Regresa el valor que contiene el div.<br>
+           <input type="radio" id="respuestas" name = "pregunta2" value="Regresa la propiedad.">Regresa la propiedad.<br>
+           <input type="radio" id="respuestas" name = "pregunta2" value="Regresa el tipo de elemento.">Regresa el tipo de elemento.<br>
+
+        <p class = "preguntas">¿Qué NO incluye el valor 'border-box'?</p>
+           <input type="radio" id="respuestas" name = "pregunta3" value="padding">Padding<br>
+           <input type="radio" id="respuestas" name = "pregunta3" value="border">Border<br>
+           <input type="radio" id="respuestas" name = "pregunta3" value="margin">Margin<br>
+
+           <input id = "boton" type = "button" value = "Evaluar contienda" onclick = "check();">
+
+       </form>
+
+       <div id = "contiendaFinalizada">
+         <p id = "respuestasCorrectas"></p>
+         <p id = "resultados"></p>
+         <img id = "imagenesResultados">
+       </div>
+    </div><!-- Termina Preguntas ocultas que se muestran al aceptar el reto -->
+    <script type="text/javascript" src="app.js">
+
+    </script>
+
+  </body>
+</html>
