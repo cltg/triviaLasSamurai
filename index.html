@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title> Bienvenida a la trivia Samurai </title>
-    <!-- cargamos el css-->
+    <!-- SE ENLAZA CON EL CSS-->
     <link rel="stylesheet" href="style.css">
 
   </head>
   <body>
     <div id="welcome"> <!-- INICIA DIV TEXTO DE BIENVENIDA -->
       <p id="usuarioAnonimo"></p></div>
-    <div>
+    <div> <!-- SE DA ID A FORM Y APARECE EL DIV DEL CUESTIONARIO -->
       <form id = "cuestionario" name = "cuestionario">
         <p><strong>Por favor contesta las siguientes preguntas:</strong></p>
         <p class = "preguntas" >¿Cuál es la mejor opción para incluir CSS en HTML?</p>
@@ -29,17 +29,17 @@
            <input type="radio" id="respuestas" name = "pregunta3" value="margin">Margin<br>
 
            <input id = "boton" type = "button" value = "Evaluar contienda" onclick = "check();">
-
+<!-- SE INSERTA UN BOTON QUE AL HACER CLICK INTERACTUARÁ CON UNA FUNCION EN JAVASCRIPT CON CHECK() -->
        </form>
 
-       <div id = "contiendaFinalizada">
+       <div id = "contiendaFinalizada"> 
          <p id = "respuestasCorrectas"></p>
          <p id = "resultados"></p>
          <img id = "imagenesResultados">
        </div>
     </div><!-- Termina Preguntas ocultas que se muestran al aceptar el reto -->
     <script type="text/javascript" src="app.js">
-
+<!-- SE INVOCA JAVASCRIPT HASTA EL FINAL, PARA QUE CARGUE DESPUES QUE TODO LO DEMAS -->
     </script>
 
   </body>
