@@ -1,6 +1,6 @@
 body {
  margin:0 auto;
- background-image: url("Imagenes/japaneseHelmet.jpg");
+ background-image: url("https://berenicelemus.com/trivia/images/japaneseHelmet.jpg");
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center;
@@ -14,12 +14,20 @@ body {
   text-align: center;
   border-radius: 20px;
   padding: 30px;
-  background-color: #f22473;
+  background-color: rgba(255,255,255, 0.9);
   color: #fff;
   vertical-align: middle;
   margin-top: 60px;
   margin-bottom: 20PX;
   font-size: 20px;
+}
+#contenedor{
+  max-width: 1152px;
+  min-width: 400px;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    padding: 0;
 }
 
 #cuestionario {
