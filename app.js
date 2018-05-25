@@ -39,7 +39,7 @@ document.getElementById("usuarioAnonimo").innerHTML = name + ", bienvenida a la 
       "¡Muy bien! Puedes mejorar aún más, así sigue afilando tu katana.",
       "¡Te falta mucha práctica, pequeña saltamontes! Por el momento regresa al dōjō para seguir entrenando.",
       "GAMEOVER Has caido en batalla por tu inexperiencia."];
-      var imagenes = [""https://berenicelemus.com/trivia/images/onnaBugeisha0.jpg", "https://berenicelemus.com/trivia/images/onnaBugeisha1.jpg", "https://berenicelemus.com/trivia/images/onnaBugeisha2.jpg", "https://berenicelemus.com/trivia/images/onnaBugeisha3.jpg""];
+      var imagenes = ["https://berenicelemus.com/trivia/images/onnaBugeisha0.jpg", "https://berenicelemus.com/trivia/images/onnaBugeisha1.jpg", "https://berenicelemus.com/trivia/images/onnaBugeisha2.jpg", "https://berenicelemus.com/trivia/images/onnaBugeisha3.jpg"];
 //LO MISMO SE HACE CON UN ARREGLO PARA VARIABLE IMAGENES PARA TENER UN TEXTO CON IMAGENES
     //DESPUES DEFINIMOS UNA VARIABLE CON NOMBRE DE RANGO PARA EVALUAR LOS RESULTADOS DEL PUNTAJE DE MANERA CONDICIONAL, PARA QUE A CADA PUNTAJE, LE CORRESPONDA UNA RESPUESTA Y UNA IMAGEN COMO RESULTADO
       var rango;
