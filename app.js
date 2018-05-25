@@ -1,8 +1,8 @@
 //Inica Mensaje de Bienvenida
-alert("Bienvenida a la Trivia Samurai");
+alert("¡Bienvenida a la Trivia Samurai!");
 //preguntamos el nombreS
 
-var name = prompt("Hola Samurai, \ndinos tu nombre");
+var name = prompt("Hola Samurai, \ndinos tu nombre:");
 //var message;
 
 if (name === "null" || name === "") {
@@ -10,11 +10,10 @@ if (name === "null" || name === "") {
   document.getElementById("usuarioAnonimo").innerHTML = "Usuario Anónimo";
 
 } else {
-  var reto = confirm( name + ", bienvenida a la trivia de Las Samurai \n En esta trivia podrás probar tu conocimiento previamente adquirido \n ¿Aceptas el reto?");
+  var reto = confirm( name + ", ¡bienvenida a la trivia de Las Samurai! \n En esta trivia podrás probar tu conocimiento previamente adquirido. \n ¿Aceptas el reto?");
 }
 if (reto===true) {
 
-  //document.write(name + ", bienvenida a la trivia de Las Samurai");
 document.getElementById("usuarioAnonimo").innerHTML = name + ", bienvenida a la trivia de Las Samurai.";
   function check(){
 //ESTA FUNCION SE ACTIVA AL SER CONVOCADA, COMO LA TRIVIA NECESITA ELEMENTOS DE HTML VARIAS VECES Y MODIFICARLO VARIAS VECES, LA FUNCION AYUDA A QUE AGRUPEMOS LAS SENTENCIAS Y LAS PODAMOS EJECUTAR VARIAS VECES, CUANDO SEA NECESARIO
